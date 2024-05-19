@@ -69,10 +69,15 @@ yarn install
 #### Modified components:
 
 - `toast.tsx`
+
   Before: ![before](/public/toast-before.png)
+
   After: ![after](/public/toast-after.png)
+
 - `button.tsx`
+
   Before: ![before](/public/button-before.png)
+
   After: ![after](/public/button-after.png)
 
 #### Modified default files:
