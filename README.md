@@ -70,21 +70,21 @@ yarn install
 
 - `toast.tsx`
 
-  Before:
+  #### Before:
 
   ![before](/public/toast-before.png)
 
-  After:
+  #### After:
 
   ![after](/public/toast-after.png)
 
 - `button.tsx`
 
-  Before:
+  #### Before:
 
   ![before](/public/button-before.png)
 
-  After:
+  #### After:
 
   ![after](/public/button-after.png)
 
