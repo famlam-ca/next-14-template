@@ -20,12 +20,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-**_NOTE:_** Bun is not required. NPM or Yarn can be used instead. To do this, delete `bun.lockb` and `node_modules` then proceed with the installation.
+**_NOTE:_** Bun is not required. NPM, PNPM or Yarn can be used instead. To do this, delete `bun.lockb` and `node_modules` then proceed with the installation.
 
 ```bash
 rm -rf node_modules
 rm bun.lockb
 npm install
+# or
+pnpm install
 # or
 yarn install
 ```
@@ -70,21 +72,21 @@ yarn install
 
 - `toast.tsx`
 
-  #### Before:
+  **Before**:
 
   ![before](/public/toast-before.png)
 
-  #### After:
+  **After**:
 
   ![after](/public/toast-after.png)
 
 - `button.tsx`
 
-  #### Before:
+  **Before**:
 
   ![before](/public/button-before.png)
 
-  #### After:
+  **After**:
 
   ![after](/public/button-after.png)
 
