@@ -2,32 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 240 20% 97%;
+    --foreground: 180 100% 99%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 4%;
+    --primary: 208 97% 75%;
+    --primary-foreground: 213 97% 87%;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+    --text: 231 15% 25%;
+    --text-foreground: 233 80% 96%;
+    --muted: 213 16% 56%;
+    --muted-foreground: 240 4% 46%;
+    --accent: 240 4.8% 96%;
+    --accent-foreground: 240 6% 10%;
+    --destructive: 0 86% 97%;
+    --destructive-foreground: 0 74% 42%;
+    --alert: 355 100% 73%;
+    --alert-foreground: 355 100% 73%;
+    --success: 160 86% 60%;
+    --success-foreground: 160 86% 60%;
+    --warning: 36 100% 67%;
+    --warning-foreground: 36 100% 67%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 240 6% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 210 8% 5%;
+    --foreground: 200 6% 10%;
+    --card: 240 10% 4%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 208 97% 75%;
+    --primary-foreground: 213 52% 26%;
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 0 0% 98%;
+    --text: 233 80% 96%;
+    --text-foreground: 231 15% 25%;
+    --muted: 213 16% 56%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 240 4% 16%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 10% 5%;
+    --destructive-foreground: 0 74% 42%;
+    --alert: 355 100% 73%;
+    --alert-foreground: 355 100% 73%;
+    --success: 160 86% 60%;
+    --success-foreground: 160 86% 60%;
+    --warning: 36 100% 67%;
+    --warning-foreground: 36 100% 67%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 240 5% 84%;
+    --radius: 0.5rem;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
