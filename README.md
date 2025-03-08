@@ -1,3 +1,6 @@
+# Depricated for https://github.com/SlickYeet/create-tnt-app
+
+<!--
 A boilerplate template using [Next.js](https://nextjs.org/) for HHN projects.
 
 ![App Screenshot](https://www.famlam.ca/logo/full/logo-full-white-s.png)
@@ -161,3 +164,4 @@ For any questions or support feel free to email me or connect with me on LinkedI
 
 | [![Email](https://skillicons.dev/icons?i=gmail)](mailto:lasse@famlam.ca) | [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/lasse-lammers-90a050234) |
 | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+-->
